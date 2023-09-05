@@ -12,13 +12,14 @@ A Telegram bot for fetching and displaying stats from a V2Ray server database. S
 - Works with multiple databases
 - Automatically processes newly collected databases
 
+
 ## Screenshots
 
-### Client View
-![Client View](screenshots/Client%20View.jpg)
+<p float="left">
+<img src="screenshots/Client%20View.jpg" width="400" />
+<img src="screenshots/Console%20View.jpg" width="400" /> 
+</p>
 
-### Console View
-![Console View](screenshots/Console%20View.jpg)
 
 ## Requirements
 
