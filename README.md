@@ -16,9 +16,9 @@ A Telegram bot for fetching and displaying stats from a V2Ray server database. S
 ## Screenshots
 
 <p float="left">
-  <img src="screenshots/Client%20View" width="400" />
+  <img src="screenshots/Client%20View.jpg" width="400" />
   <figcaption>Client View.jpg</figcaption>
-  <img src="screenshots/Console%20View" width="400" />
+  <img src="screenshots/Console%20View.jpg" width="400" />
   <figcaption>Console View.jpg</figcaption>
 </p>
 
