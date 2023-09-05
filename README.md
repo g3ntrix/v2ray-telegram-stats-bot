@@ -67,7 +67,7 @@ Licensed under the Mozilla Public License 2.0. See the `LICENSE` file for more d
 
 ## Contact
 
-If you have any questions, feel free to [contact me](mailto:your_email_here).
+If you have any questions, feel free to [contact me](http://t.me/g3ntrix).
 
 ## Acknowledgments
 
