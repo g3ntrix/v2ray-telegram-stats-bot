@@ -1,6 +1,6 @@
 # V2Ray Server Stats Bot
 
-A Telegram bot for fetching and displaying stats from a V2Ray server database. Supports multiple servers and designed to work with databases that are collected on a server using the `scp` command and cronjobs.
+hi. A Telegram bot for fetching and displaying stats from a V2Ray server database. Supports multiple servers and designed to work with databases that are collected on a server using the `scp` command and cronjobs.
 
 ![Mozilla Public License 2](https://img.shields.io/badge/license-MPL2-blue.svg)
 
