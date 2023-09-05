@@ -1,74 +1,58 @@
-# V2Ray Server Statistics Telegram Bot
+# V2Ray Server Stats Bot
 
-This Telegram bot is designed to fetch and display user statistics related to network usage on V2Ray servers. Built using [Pyrogram](https://github.com/pyrogram/pyrogram), this bot works seamlessly with multiple V2Ray servers and their SQLite databases.
+A Telegram bot for fetching and displaying stats from a V2Ray server database. Supports multiple servers and designed to work with databases that are collected on a server using the `scp` command and cronjobs.
+
+![Mozilla Public License 2](https://img.shields.io/badge/license-MPL2-blue.svg)
 
 ## Features
 
-- Compatible with multiple V2Ray servers.
-- Automatically processes SQLite databases transferred via SCP.
-- Fetches and displays detailed user statistics:
-  - Download
-  - Upload
-  - Total usage
-  - Remaining data
-  - Expiry information
+- Fetch Download/Upload Stats
+- Remaining Data Information
+- Expiry Time and Days Left
+- Works with multiple databases
+- Automatically processes newly collected databases
 
-## Architecture
+## Screenshots
 
-Databases from multiple V2Ray servers are sent to a centralized server using SCP and collected in a specific folder. These databases are updated every minute via a cronjob. The bot then processes these databases to fetch user statistics.
+### Client View
+![Client View](screenshots/Client%20View.jpg)
+
+### Console View
+![Console View](screenshots/Console%20View.jpg)
 
 ## Requirements
 
 - Python 3.x
-- Pyrogram
-- SQLite3
-- An active Telegram Bot token
-- An API ID and a HASH ID
-- SCP and Cronjob setup for database transfer
+- pyrogram
+- sqlite3
+- An API ID and a HASH ID from Telegram
 
-## Installation & Setup
+## Installation and Setup
 
-1. Clone the repository
-    ```
-    git clone https://github.com/your_username/your_repository_name.git
-    ```
+1. Clone the repository:
 
-2. Navigate to the directory
     ```
-    cd your_repository_name
+    git clone https://github.com/your-username/your-repository.git
     ```
 
-3. Install the required Python packages
+2. Navigate to the project directory and install the required packages:
+
     ```
-    pip install pyrogram
+    pip install -r requirements.txt
     ```
 
-4. Create a `.env` file to store sensitive information like Telegram Bot Token, API ID, and API hash, or input them directly into the Python script.
+3. Add your `API ID` and `HASH ID` into the designated places in the code.
 
-5. Run the script
+4. Run the bot:
+
     ```
-    python your_script_name.py
+    python main.py
     ```
 
 ## Usage
 
-- Start the Telegram bot.
-- Use `/stats` command to initiate the bot.
-- You will be prompted to send your configuration URI.
-- The bot will then fetch and display your statistics.
-
-## Contributing
-
-If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+Send the `/stats` command to the bot to fetch the server statistics.
 
 ## License
 
-Licensed under the Mozilla Public License 2.0. See the `LICENSE` file for more details.
-
-## Contact
-
-If you have any questions, feel free to [contact me](http://t.me/g3ntrix).
-
-## Acknowledgments
-
-- Thanks to [Pyrogram](https://github.com/pyrogram/pyrogram) for their robust API.
+This project is licensed under the Mozilla Public License 2.0 - see the [LICENSE](LICENSE) file for details.
