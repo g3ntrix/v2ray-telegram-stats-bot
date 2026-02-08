@@ -33,7 +33,7 @@ Client View             |  Console View
 1. Clone the repository:
 
     ```
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/g3ntrix/v2ray-telegram-stats-bot.git
     ```
 
 2. Navigate to the project directory and install the required packages:
